@@ -276,7 +276,10 @@
 			countD = 0;
 			countC = countC+1;
 			if(countC==1) {
-				for (let cursor = 1; cursor < 55; cursor++) {
+				for (let cursor = 1; cursor < 6; cursor++) {
+					$('#console').append("<img width=100% src='./gallery/me/" + cursor.toString() + ".jpg'>");
+				}
+				for (let cursor = 7; cursor < 55; cursor++) {
 					$('#console').append("<img width=100% src='./gallery/me/" + cursor.toString() + ".jpg'>");
 				}
 				$('#console').append("<hr><hr>");
